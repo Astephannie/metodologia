@@ -1,0 +1,211 @@
+#home-nosotros{
+	background-image: url(../assets/images/img_nosotros-02.png);
+	background-size: cover;
+	width: 100%;
+	height: 70%;
+	.navbar{
+		background-color: transparent;
+	  border-color: transparent;
+		font-size: 19px;
+ 	}
+ 	.btn-ingresar{
+	  margin: 8px;
+		border-radius: 12px;
+  }
+	.btn-dropdown{
+	  border: 1px solid gray;
+	  padding: 5px 13px !important;
+	  border-radius: 30px;
+	  margin-top: 9px;
+	  font-size: 13px;
+	}
+	.text-upper{
+		padding: 0 8%;
+		letter-spacing: 0.05em;
+		p{
+			font-size: 16px;
+			line-height: 1.5;
+		}
+	}
+}
+
+.icon-farolito-movil{
+	width: 25% !important;
+  top: 17px;
+  position: absolute;
+  margin: 0 38% !important;
+  z-index: 10;
+}
+
+.icon-movil{
+ visibility: hidden;
+}
+
+.icon-movil.scroll{
+ visibility: visible;
+}
+
+.menu-nosotros{
+	background-color: rgb(240, 251, 253);
+  	position: fixed;
+	width: 100%;
+	z-index: 10;
+	img{
+		width: 8%;
+	  margin: -47px 40px;
+	  float: left;
+	}
+}
+
+.menu-fijo{
+	margin-top: 6px;
+}
+
+.text-center-nosotros{
+	padding-top: 5%;
+	h3{
+		font-size: 25px;
+	}
+}
+
+/*SECCIÓN FUNDADORES*/
+.fundadores{
+	h1{
+		margin-top: 5%;
+	}
+}
+
+.fila-img-circular{
+	margin-top: 5%;
+	.col-fundadores{
+		.img-fundadores{
+			img{
+				width: 40%;
+				padding: 2%;
+				border: 2px solid gray;
+			}
+		}
+		h3{
+			margin: 0;
+			padding: 0;
+			margin-top: 5%;
+		}
+		p{
+			font-weight: 600;
+		}
+		.text-parrafo{
+			font-weight: 100;
+			padding: 5% 9%;
+		}
+	}
+}
+
+/*SECCIÓN ASESORES*/
+.asesores{
+	h1{
+		padding-top: 6%;
+	  border-top: 2px dashed gray;
+	  margin-top: 6%;
+	}
+} 
+
+/*SECCIÓN TEST*/
+
+.test-fila{
+	padding-bottom: 5%;
+}
+
+/*SECCIÓN CITAS*/
+
+.citas{
+	background-color:  #FF6A49;
+	.img-citas{
+		padding-top: 10%;
+		margin-bottom: 5%;
+	}
+}
+
+.fila-cita{
+	margin-top: 5%;
+}
+
+.text-center-cita{
+	h3{
+		margin: 3%;
+  	padding: 0;
+	}
+	p{
+		margin:7% 0 15%;
+	}
+} 
+
+.linea-dashed-cita{
+	border-top: 2px dashed white;
+	margin: 0 25%;
+}
+
+
+
+
+
+@media screen and (max-width: $screen-phone){
+	.home-nosotros{
+		background-image:url(../assets/iconos/img_nosotros-03.png) !important;
+		width: 100%;
+		height: auto;
+	}
+	
+	.btn-nosotros{
+		top: 2px !important;
+		margin-left: 67%;
+		z-index: 10;
+	}
+	.button-principal a {
+	  background-color: #FF6A49;
+	  border-color: #ff5530;
+	  padding: 5px;
+  	font-size: 11px;
+  	border-radius: 6px;
+	}
+
+	.text-center-nosotros{
+		padding:4%;
+		h1{
+			font-size: 40px;
+			  margin-top: 20%;
+		}
+		h3{
+			font-size: 19px;
+  		padding: 6%;
+		}
+	}
+
+	.fundadores{
+		h1{
+			font-size: 40px;
+		}
+	}
+	.col-fundadores{
+		h3{
+			font-weight: 600;
+		}
+	}
+
+	.text-center-cita{
+		padding:0;
+		.linea-dashed-cita{
+			margin: 0 2% !important;
+		}
+		h3{
+			margin: 6% 0 !important;
+		}
+		p{
+			padding: 11% 3% !important;
+		}
+	}
+	.img-fundadores{
+		img{
+			width: 50% !important;
+		}
+	}
+}
